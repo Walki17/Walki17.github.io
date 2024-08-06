@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="Estilos.css" type="text/css">
+</head>
+<body>
+    <img src="Imagenes/icono.jpg" alt="icono" id="icono">
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Mi Portfolio</h2>
+            <ul>
+              <li><a href="Sobre mi.html">Sobre mi</a></li>
+              </ul></div>
+              <div class="lbl-menu">
+                <label for="proyecto1">Mis proyectos</label>
+                <label for="contacto1">Contáctame</label>
+        </div>
+        <div class="content">
+
+            <input type="radio" name="radio" id="proyecto1">
+          <div class="proyecto">
+            <h2> Mis Proyectos </h2>
+            <img src="Imagenes/proyecto1.jpg" alt="Proyecto">
+            <img src="Imagenes/proyecto2.jpg" alt="Proyecto">
+            <img src="Imagenes/proyecto3.jpg" alt="Proyecto">
+            <img src="Imagenes/proyecto4.jpg" alt="Proyecto">
+            <img src="Imagenes/proyecto5.jpg" alt="Proyecto">
+            <img src="Imagenes/proyecto6.jpg" alt="Proyecto">
+            <img src="Imagenes/proyecto7.jpg" alt="Proyecto">
+            <img src="Imagenes/proyecto8.jpg" alt="Proyecto">
+          </div>
+
+          <input type="radio" name="radio" id="contacto1">
+          <div class="contacto">
+            <h2> Contacto </h2>
+            <a href="https://www.instagram.com/walkiim/"><img src="Imagenes/Ig.jpg" alt="Instagram"></a>
+            <a href="https://github.com/Walki17"> <img src="Imagenes/GitHub.jpg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/walkiria-melián-sosa-0b552615b/"> <img src="Imagenes/LinkedIn.jpg" alt="LinkedIn"></a>
+            <a href="https://x.com/walkiim17/"> <img src="Imagenes/x.jpeg" alt="Twitter"></a>
+
+            <details>  
+             <summary class="formulario">O puedes contactarme aquí</summary>
+            <form>
+                <p>Para: <input type="text" name="para"></p>
+                                     
+                <label for="temas">Temática</label> 
+                <select id="temas" name="temas"> 
+                    <option value="elige">-- Elige un Tema --</option>
+                    <option value="consulta">Consulta </option>
+                    <option value="propuesta">Propuesta</option>
+                    <option value="reporte">Reporte</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <p>Asunto: <input type="text" name="para"></p>
+                <p>Cuerpo: <textarea name="cuerpo" id="cuerpo"></textarea> <input type="button" value="Enviar"> </p>
+            </form> 
+        </details> 
+
+          </div>
+            </div>
+</body>
+</html>

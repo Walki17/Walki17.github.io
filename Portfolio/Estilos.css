@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    max-width: 1000px; 
+    margin: auto;
+    margin-top: 10px;    
+}
+.lbl-menu {
+background-color: rgb(248, 240, 231);
+}
+.lbl-menu label{
+display: inline-block;
+padding: 20px;
+color: black;
+cursor: pointer;
+transition: all 400ms ease;
+}
+.lbl-menu label:hover {
+  background-color: rgb(234, 231, 231);
+}
+.sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100vh;
+    background-color: #f0f0f0;
+    z-index: 1;
+    overflow: scroll;
+}
+.content {
+  position: relative;
+}
+.content div {
+    position: absolute;
+    line-height: 1.8;
+    transition: all 600ms ease;
+    margin-left: 50px; 
+    margin-right: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 30px;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
+
+#proyecto1:checked  ~ .proyecto,
+#contacto1:checked ~ .contacto {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+#proyecto1, #contacto1 {
+  display: none;
+}
+
+
+#icono {
+    position: absolute;
+    top: 30px; 
+    left: 85px;
+    width: 150px;
+    height: 150px;
+    transform: translateX(-50%);
+    size: 5%;
+    border-radius: 50%;
+    z-index: 2;
+}
+.sidebar h2 {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.sidebar ul {
+  position: absolute;
+  top: 250px;
+  left: 5px;
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.content img {
+  width: 16%;
+  height: auto;
+  border: #ffffff;
+  border-radius: 2px;
+  border-style: none;
+  border-radius: 20%;
+}
+.contacto img {
+  max-width: 1cm;
+}

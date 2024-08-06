@@ -1,0 +1,44 @@
+* {
+    background-color: #f1eae3;
+}
+
+
+h1{
+    font-family: Courier New, monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p{
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    color: #000000;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+
+#volver {
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    height: 5px;
+    width: 70px;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);  
+    position: relative;
+    left: 47%;
+    padding: 14px 28px 30px 14px; 
+    cursor: url(Imagenes/Cute\ Purple\ Link\ Select.cur), auto;
+    border-radius: 20px;   
+    transition: box-shadow 0.3s ease-in-out;
+    background-image: linear-gradient(to right, #f6dcc3, #f5b5a6);
+}
+
+#volver:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to right, #f5b5a6, #f6dcc3);
+}
